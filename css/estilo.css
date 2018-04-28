@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+@keyframes girar {
+	from{
+		transform: rotate(-360deg);
+
+	}
+
+	to{
+
+	}
+}
+
+
+.fab{
+	color: black;
+	margin: 18px 18px;
+	float: right;
+	font-color: black;
+
+}
+
+
+
+#primero{
+	font-size: 300px;
+	animation-name: girar;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	position: absolute;
+	left: 100px;
+}
+
+#segundo{
+	font-size: 200px;
+	animation-name: girar;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	position: absolute;
+	left: 100px;
+	top: 350px;
+}
+
+#tercero{
+	font-size: 180px;
+	animation-name: girar;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+}
+
+#cuarto{
+	font-size: 130px;
+	animation-name: girar;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+	position: absolute;
+	left: 30px;
+	top: 250px;
+}
+
+#quinto{
+	font-size: 80px;
+	animation-name: girar;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+	animation-iteration-count: infinite;
+	position: absolute;
+	left: 300px;
+	top: 410px;
+}
